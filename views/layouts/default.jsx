@@ -10,8 +10,7 @@ function Default(html) {
         {/* <!-- normalize & skeleton links --> */}
         <link rel="stylesheet" href="/main.css" />
       </head>
-      <link rel="stylesheet" href="/main.css" />
-      <body>
+       <body>
         <div className="wrapper">
           <header>
             <h1><a href="/breads">BreadCRUD</a></h1>
