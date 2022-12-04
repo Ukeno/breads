@@ -1,4 +1,3 @@
-// http://localhost:3003/breads/0/edit
 const React = require('react')
 const Default = require('./layouts/Default')
 
