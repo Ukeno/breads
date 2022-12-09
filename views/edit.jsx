@@ -37,7 +37,9 @@ function Edit({ bread, bakers }) {
           defaultChecked={bread.hasGluten}
         />
         <br />
+        <div className="submit">
         <input type="submit" />
+        </div>
       </form>
       <div className="editButton">
         <a href="/breads"><button>Go back to the index</button></a>

@@ -15,7 +15,7 @@ function Default(html) {
             <h1><a href="/breads">BreadCRUD</a></h1>
           </header>
           <div className="myNote">
-          <h5>BE-9 DAY 9 &ensp;Completed</h5>
+          <h6>BE-9 DAY 9</h6>
           </div>
           <div className="container">
             {html.children}

@@ -17,16 +17,21 @@ function Show({ bread, index }) {
       </p>
       <img src={bread.image} alt={bread.name} />
       <p>{bread.getBakedBy()}</p>
-      <a href={`/breads/${bread.id}/edit`}><button>Edit</button></a>
-
+      <div className="edit">
+        <a href={`/breads/${bread.id}/edit`}><button>Edit</button></a>
+      </div>
+      <br />
       <form action={`/breads/${bread.id}?_method=DELETE`} method="POST">
-        <input type='submit' value="DELETE" />
+        <div className="delete">
+          <input type='submit' value="DELETE" />
+        </div>
       </form>
       <div className="showButton">
         <a href="/breads"><button>Go back to the index</button></a>
       </div>
     </Default>
   )
-RTCRtpSender}
+  RTCRtpSender
+}
 
 module.exports = Show

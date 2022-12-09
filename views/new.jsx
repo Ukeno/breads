@@ -33,10 +33,12 @@ function New({ bakers }) {
             )
           })}
         </select>
-        <br />
-        <input type="submit" />
+        <br /><br />
+        <div className="submit">
+          <input type="submit" />
+        </div>
       </form>
-      <div className="newButton">
+      <div className="showButton"> {/* New */}
         <a href="/breads"><button>Go back to the index</button></a>
       </div>
     </Default>

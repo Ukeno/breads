@@ -1,7 +1,7 @@
 body {
   font-size: large;
   color: lightgrey;
-  background-color: black;
+  background-color: #454555;
 }
 
 h1 {
@@ -22,33 +22,45 @@ h6 {
 
 img {
   height: 25em;
+  border: 2px solid #1EAEDB;
+  border-radius: 10px;
 }
 
+/* Note*/
+.myNote {
+  color: #1EAEDB;
+}
+
+/* Add a new bread */
 .newButton {
-  background-color: lightcoral;
+  background-color: #f5f5f5;
   width: 8.84vw;
   height: 3.5vh;
 }
 
-.showButton {
-  background-color: whitesmoke;
-  width: 10.45vw;
-  height: 3.5vh;
-}
-
-.editButton {
-  background-color: lightblue;
-  width: 10.45vw;
-  height: 3.5vh;
-}
-
+/* Go back to the index */
+.showButton,
+.editButton,
 .bioButton {
-  background-color: gold;
+  background-color: #f5f5f5;
   width: 10.45vw;
   height: 3.5vh;
 }
 
-.myNote {
- color: lightseagreen;
- width: 15vw;
+.submit {
+  background-color: #f5f5f5;
+  width: 5.3vw;
+  height: 3.5vh;
+}
+
+.edit {
+  background-color: #f5f5f5;
+  width: 4.5vw;
+  height: 3.5vh;
+}
+
+.delete {
+  background-color: #f5f5f5;
+  width: 5.5vw;
+  height: 3.5vh;
 }
