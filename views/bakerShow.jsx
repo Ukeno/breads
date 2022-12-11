@@ -19,6 +19,9 @@ function Show({ baker }) {
                     })
                 }
             </ul>
+            <form action={`/bakers/${baker.id}?_method=DELETE`} method="POST">
+                <input type="submit" value="DELETE" />
+            </form>
             <div className="bioButton">
                 <a href="/breads"><button>Go back to the index</button></a>
             </div>
