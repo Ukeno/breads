@@ -7,7 +7,7 @@ function Show({ baker }) {
             <h3>{baker.name}</h3>
             <p>{baker.name} has been baking with us since {baker.startDate.getFullYear()}</p>
             <p>About {baker.name}: {baker.bio}</p>
-            <h3>Breads {baker.name} has baked</h3>
+            <h4>Breads {baker.name} has baked</h4>
             <ul>
                 {
                     baker.breads.map((bread) => {
@@ -22,7 +22,7 @@ function Show({ baker }) {
             <form action={`/bakers/${baker.id}?_method=DELETE`} method="POST">
                 <input type="submit" value="DELETE" />
             </form>
-            <div className="bioButton">
+            <div className="Button">
                 <a href="/breads"><button>Go back to the index</button></a>
             </div>
         </Default>

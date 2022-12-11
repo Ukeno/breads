@@ -29,4 +29,9 @@ module.exports = [
     startDate: '1998-09-24',
     bio: 'Is NOT a shoe. Occasionally a fan of lobsters.'
   },
+  {
+    name: 'Kenny',
+    startDate: '2001-08-21',
+    bio: 'More than a baker. No fear, no dismay .'
+  },
 ]

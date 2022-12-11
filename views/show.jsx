@@ -31,7 +31,6 @@ function Show({ bread, index }) {
       </div>
     </Default>
   )
-  RTCRtpSender
-}
+ }
 
 module.exports = Show

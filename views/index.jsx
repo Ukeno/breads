@@ -19,7 +19,7 @@ function Index({ breads, bakers, title }) {
       </ul>
       <h3>Breads</h3>
       <div className="newButton">
-        <a href="/breads/new"><button>Add a new bread</button></a>
+        <a href="/breads/new"><button><text style={{color: 'black'}}>Add a new bread</text></button></a>
       </div>
       <br />
       <ul>

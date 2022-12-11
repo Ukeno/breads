@@ -22,6 +22,7 @@ mongoose.connect(process.env.MONGO_URI, {useNewUrlParser: true, useUnifiedTopolo
 //routes
 app.get('/', (req,res)=> {
     res.send('welcome to an Awesome App about breads!')
+    // setTimeout(() => console.log('Initial timeout!'), 10000);
 })
 
 // breads
